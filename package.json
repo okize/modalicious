@@ -1,0 +1,20 @@
+{
+  "name": "Modalicious",
+  "description": "accessible jQuery modal",
+  "version": "1.0.1",
+  "author": "Morgan Wigmanich <okize123@gmail.com> (http://github.com/okize)",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "1.6.x",
+    "jshint": "2.1.x",
+    "uglify-js": "2.3.x",
+    "jade": "0.31.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/modalicious/sumn"
+  },
+  "bugs": {
+    "url": "https://github.com/okize/modalicious/issues"
+  }
+}
