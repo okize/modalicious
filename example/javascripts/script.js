@@ -7,9 +7,7 @@ $(document).on('ready', function() {
 
 
 
-  $("body").keyup( function (e) {
-    console.log( e.which );
-  });
+
 
   // window.onload = function() {
   //   var firstAnchor = document.getElementById("dialog-start"),

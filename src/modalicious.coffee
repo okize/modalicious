@@ -51,7 +51,18 @@ http://www.opensource.org/licenses/MIT
     # plugin initializer
     init: ->
       $('body').append @overlay
-      console.log @overlay
+
+      # log keyboard events
+      $('body').on 'keyup', (e) ->
+        console.log e.which
+
+    # show modal
+    show: ->
+      console.log 'show modal'
+
+    # hide modal
+    hide: ->
+      console.log 'hide modal'
 
   # wrapper around the constructor that prevents multiple instantiations
   $.fn[pluginName] = (options) ->

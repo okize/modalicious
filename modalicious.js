@@ -40,7 +40,17 @@ http://www.opensource.org/licenses/MIT
 
       Modal.prototype.init = function() {
         $('body').append(this.overlay);
-        return console.log(this.overlay);
+        return $('body').on('keyup', function(e) {
+          return console.log(e.which);
+        });
+      };
+
+      Modal.prototype.show = function() {
+        return console.log('show modal');
+      };
+
+      Modal.prototype.hide = function() {
+        return console.log('hide modal');
       };
 
       return Modal;
